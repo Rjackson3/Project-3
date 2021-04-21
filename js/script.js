@@ -10,16 +10,10 @@ $(function(){
   });
 });
 
-$(document).ready(function(){
-  $('#click1').click(function(){
-      $('#aimg').toggleClass('aboutmeimg2');
-  });
-});
-
 function initMap() {
   const chicago = { lat: 41.881832, lng: -87.623177 };
-  const school = { lat: 41.87311896959141, lng: -87.62791057334427};
-  const neighborhood = { lat: 41.97981509067583, lng: -87.69937281857815};
+  const devry = { lat: 41.86423, lng: -87.66410};
+  const neighborhood = { lat: 41.73004, lng: -87.56937};
   const IIT = { lat: 41.83429528028157, lng: -87.62756505033413 }
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 11,
