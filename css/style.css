@@ -62,7 +62,7 @@ p, li{
 #onpage{
   text-decoration: underline;
 }
-/* about me page */
+/* homepage page */
 #aboutmeimg{
   float: right;
   position: relative; 
@@ -127,8 +127,8 @@ p, li{
   width: 50%;
 }
 .photoresize{
-  height: 50%;
-  width: 90%;
+  height: 25%;
+  width: 50%;
 }
 .imgcontainer{
   float: right;
