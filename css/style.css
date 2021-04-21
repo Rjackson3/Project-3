@@ -1,0 +1,165 @@
+p, li{ 
+  color: #707C80;
+}
+.dfont {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.talign { 
+  margin: 0em;
+  text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.floatclear{
+  clear: both;
+}
+.title{ 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4.6875em;
+  color: #000000;
+  margin: 0em;
+}
+#wrapper {
+  width: 85.25em;
+  margin: auto;
+}
+/* all 3 page nav */
+#main-navbar{
+  background-color: #333333;
+  overflow: hidden;
+}
+#navbar-container{
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul{
+  list-style-type: none;
+  margin: 0.5em;
+  padding: 0.5em;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li{
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block; 
+}
+#main-navbar ul li a{
+  display: block;
+  padding: 0.625em 1.25em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+}
+#main-navbar ul li a:hover{
+  background-color: #000;  
+}
+#onpage{
+  text-decoration: underline;
+}
+/* about me page */
+#aboutmeimg{
+  float: right;
+  position: relative; 
+  top: -8.75em;
+  right: 15.625em;
+  z-index: 15;
+}
+#goalimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: -33.125em;
+  width: 27.5em;
+  height: 22.5em;
+  border-radius: 150%;
+  z-index: 15;
+}
+.gcontainer{
+  width: 18.75em;
+  height: 31.25em;
+  margin: 0.625em;
+  padding: 0.625em;
+  float: right;
+}
+.indexp{
+  width: 28.125em;
+  margin: 0.625em;
+  padding: 0em;
+  text-align: center;
+}
+.box{
+  float: right;
+  position: relative;
+  top: -10.625em;
+  right: -15.625em;
+  width: 29.065em;
+  height: 28em;
+  background-color: #30BFBF;
+}
+.circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: -9.375em;
+  right: 0.625em;
+  width: 27.5em;
+  height: 22.5em;
+  border-radius: 150%;
+  background-color: #30BFBF;
+}
+/* interest page */
+#interesttext{
+  position: fixed;
+  background-color: #fff;
+  padding: 1em;
+  font-size: 0.7em;
+  font-size: 0.8vw;
+  width: 50%;
+}
+.photoresize{
+  height: 50%;
+  width: 90%;
+}
+.imgcontainer{
+  float: right;
+  position: relative;
+  height: auto;
+  width: 50%;
+}
+.imgright{
+  float: right;
+  position: relative;
+  right: -4.5em;
+}
+.imgadj{
+  height: 80%;
+  width: 90%;
+}
+/* resume page */
+#nativefont{
+  font-family: sans-serif;
+}
+.edu{
+  position: relative;
+  margin-bottom: 1em;
+  height: 24em;
+  width: 30em;
+}
+.extra{
+  float: right;
+  position: relative;
+  height: 19em;
+  width: 30em;
+  right: 10em;
+  top: -56.5em;
+}
