@@ -163,6 +163,59 @@ p, li{
   right: 10em;
   top: -56.5em;
 }
+/* media queries */
+@media screen and (min-width: 600px){
+#interesttext{
+  position: fixed;
+  background-color: white;
+  padding: 0.5em; /*4*/
+  font-size: 0.7em;
+  font-size: 1vw; /*1*/
+  width: 48%; /*2*/
+  height: inherit;
+}
+.photoresize{
+  height: 25%;
+  width: 50%;
+}
+.imgcontainer{
+  float: right;
+  position: relative;
+  height: auto;
+  width: 51%; /*5*/
+  background-color: #444444; /*3*/
+}
+.imgadj{
+  height: 80%;
+  width: 100%;
+}
+}
+@media screen and (min-width: 900px){
+#interesttext{
+  position: fixed;
+  background-color: white;
+  padding: 1em; /*4*/
+  font-size: 0.7em;
+  font-size: 0.8vw; /*1*/
+  width: 48%; /*2*/
+  height: inherit;
+}
+.photoresize{
+  height: 25%;
+  width: 50%;
+}
+.imgcontainer{
+  float: right;
+  position: relative;
+  height: auto;
+  width: 50%;/*5*/
+  background-color: #333333;/*3*/
+}
+.imgadj{
+  height: 80%;
+  width: 100%;
+}
+}
 /* google map */
 #map{
   position: relative;
